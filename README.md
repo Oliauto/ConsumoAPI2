@@ -49,14 +49,22 @@ Respuesta:
 
 RespuestaAutDTO{ 
 
-token		string 		nullable: true 
-
-expiracion	string($date-time) 
-
-roles	[...]	List(string) 
-
-errorResp	string 		nullable: true 
-
+{
+  "accessToken": "string",
+  "accessExpiracion": "2023-12-14T19:39:03.577Z",
+  "menus": [
+    {
+      "id": 0,
+      "titulo": "string",
+      "descripcion": "string",
+      "recurso": "string",
+      "subMenu": [
+        "string"
+      ]
+    }
+  ],
+  "errorResp": "string"
+}
 } 
 
  
